@@ -27,7 +27,7 @@ return() => {
       {(toggleMenu || largeur > 500) && (
         <ul className="liste">
           <li className="items">Accueil</li>
-          <li className="items">Service</li>
+          <li className="items">Écrire</li>
           <li className="items">Contact</li>
         </ul>
       )}
