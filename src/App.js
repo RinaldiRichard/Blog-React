@@ -1,4 +1,4 @@
-import Home from "./Containers/AddArticle/Home/Home";
+import Home from "./Containers/Home/Home";
 import Navbar from "./Components/Navbar/Navbar";
 
 function App() {
