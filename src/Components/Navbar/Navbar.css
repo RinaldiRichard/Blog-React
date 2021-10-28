@@ -16,7 +16,9 @@ nav {
   position: relative;
   font-size: 22px;
 }
-
+.liste a {
+  text-decoration: none;
+}
 .items {
   margin: 0 15px;
   text-transform: uppercase;
