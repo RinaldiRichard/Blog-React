@@ -11,6 +11,15 @@ export default function Form() {
 
   const handleForm = (e) => {
     e.preventDefault();
+
+    dispatch ({
+      type: "ADDARTICLE",
+      payload: article
+    })
+    setArticle ({
+      title:"",
+      body:""
+    })
   };
   const handleInput = (e) => {
     if (e.target.classList.contains('inp-title')){
